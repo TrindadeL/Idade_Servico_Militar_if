@@ -1,0 +1,12 @@
+MAIOR_IDADE = 18
+
+idade = int(input("Informe sua idade: "))
+
+if(idade < MAIOR_IDADE):
+  print("Não prestou serviço militar")
+    
+elif(idade > MAIOR_IDADE):
+  print("Realizou inscrição nas forças armadas.")
+    
+else:
+  print("Apresente-se para serviço militar obrigatório.")
